@@ -103,6 +103,15 @@ files.keys().filter(key => {
 
 
 
+### 项目展望
+
+```shell
+anzhiyu add3page YourPageName 
+# 例如anzhiyu add3page home，默认会放到src/views/home/home.vue中，并且会创建src/router/home/home.ts
+anzhiyu add3page YourPageName -d src/views 
+# 也可以指定文件夹，例如anzhiyu add3page user -d src/views/main/system/user ，会放到src/views/main/system/user中，并且会创建src/router/home/home.ts
+```
+
 
 
 # Documentation
